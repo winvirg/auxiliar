@@ -1,0 +1,244 @@
+/* UNIVERSAL */
+
+* {
+  margin: 0;
+  font-family: Montserrat-ExtraLight;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: normal;
+}
+
+/* MENU */
+
+.Menu{
+  background: #292727;
+  color: #fff;
+  padding: 20px 0px;
+  align-items: baseline;
+}
+
+.Menu ul{
+  display: flex;
+  float: right;
+  justify-content: flex-end;
+}
+
+.Menu ul li{
+  list-style: none;
+  flex-direction: row;
+  margin-right: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.Menu ul li:hover{
+  border-bottom: #2AC8BA solid 2px;
+  padding-bottom: 0.2em;
+}
+
+.Menu .logo{
+  background-image: url(../public/img/steno.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 146px;
+  height: 40px;
+  display:inline-flex;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+/* SLIDER */
+
+.slider{
+  background: #292727;
+  color: #fff;
+  padding: 5em 10em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+section.slider{
+  display: inline-flex;
+}
+
+.slider div{
+  flex-direction: column;
+  float: left;
+}
+
+.slider h1{
+  max-width: 10em;
+  font-family: Montserrat-Medium;
+  font-size: 2.5em;
+}
+
+.slider h2{
+  font-size: 1.3em;
+  max-width: 15em;
+}
+
+/* O QUE FAZEMOS */
+
+.oquefazemos{
+  background: #292727;
+  color: #fff;
+  padding: 5em 10em 0 10em;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.oquefazemos div{
+  display: flex;
+  flex-direction: row;
+  border-top: 0.01px #fff solid;
+  width: 60em;
+}
+
+.oquefazemos .titulo{
+  padding: 6em 8em 5em 8em;
+  border-right: 0.1px #fff solid;
+}
+
+.oquefazemos div h3{
+  font-size: 1.5em;
+}
+
+.oquefazemos p{
+  padding: 5em 4em 3em 4em;
+}
+
+/* VANTAGENS */
+
+.vantagens{
+  color: black;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat-Medium !important;
+}
+
+.vantagens div{
+  padding: 6em;
+  display: flex;
+  flex-direction: row;
+  width: 30em;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.30) inset;
+}
+
+.vantagens .vantagem1{
+  background: #6AB8C8;
+}
+
+.vantagens .vantagem2{
+  background: #D0ECF1;
+}
+
+.vantagens .vantagem3{
+  background: #0E7B8B;
+}
+
+/* QUEM SOMOS */
+
+.quemsomos{
+  background: #292727;
+  color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.quemsomos div{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.01px #fff solid;
+  width: 60em;
+}
+
+.quemsomos .titulo{
+  padding: 5em 10em 5em 10em;
+  border-right: 0.1px #fff solid;
+  align-items: center;
+}
+
+.quemsomos div h3{
+  font-size: 1.5em;
+}
+
+.quemsomos p{
+  padding: 5em 10em 5em 10em;
+  width: 60em;
+}
+/*PROJETOS*/
+.projetos{
+  display: inline-block;
+  padding-left: 5%;
+}
+.acessarbotao{
+  width: 345px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #6AB8C8 0%, #338C9E 100%);
+  
+}
+.teste{
+  width: 342px;
+  height: 342px;
+  align-items: center;
+  text-align: center;
+}
+
+/*NOSSO TIME*/
+.nossotime{
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.nome{
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cargo{
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+
+.time{
+  display: inline-block;
+  padding-left: 22%;
+  padding-top: 2.5%;
+  
+  
+}
+/* FONTES */
+
+@font-face {
+  font-family: Montserrat-ExtraLight;
+  src: url(../public/font/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../public/font/Montserrat-Medium.ttf);
+}
+
